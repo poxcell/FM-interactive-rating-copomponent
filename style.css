@@ -25,7 +25,8 @@ body{
 .container {
   background: var(--dark-blue);
   background: linear-gradient(180deg, var(--dark-blue) -40%, var(--very-dark-blue) 900%);
-  width: 330px;
+  max-width: 330px;
+  margin: 0 2em;
   padding: 1.5em;
   border-radius: 1.5em;
   
